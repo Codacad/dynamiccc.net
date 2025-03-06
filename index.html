@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Contracting Company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+  </head>
+  <body class="font-grotesk">
+    <section class="hero min-h-screen relative pb-4">
+      <!-- Background Video -->
+      <div class="background w-full min-h-screen absolute -z-10">
+        <video
+          id="video"
+          loop
+          autoplay
+          class="absolute top-0 left-0 w-full h-full object-cover"
+        >
+          <source src="/assets/videos/hero-video.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <!-- Foreground -->
+      <div class="foreground min-h-screen absolute z-10 bg-[rgba(0,0,0,.5)]">
+        <header class="flex flex-col">
+          <div
+            class="tiny-bar flex gap-4 p-2 px-16 bg-[var(--primary)] text-white"
+          >
+            <div class="email">
+              <a href="mailto:info@dynamiccc.net">
+                <span><i class="fa-solid fa-envelope"></i></span>
+                <span> info@dynamiccc.net </span>
+              </a>
+            </div>
+            <div class="contact-number">
+              <span><i class="fa-solid fa-phone"></i></span>
+              <span><a href="tel:+966536317438">0536317438</a></span>
+            </div>
+            <div class="button ml-auto">
+              <a href="#" class="bg-white p-2 rounded-sm text-[var(--primary)]"
+                >Get in touch</a
+              >
+            </div>
+          </div>
+          <nav class="bg-gray-50 px-8 p-2">
+            <div class="navbar-contents flex justify-between items-center">
+              <h1 class="text-4xl font-bold uppercase">
+                <a href="#"
+                  ><img src="/assets/icons/dynamiccc-logo.svg" alt=""
+                /></a>
+              </h1>
+
+              <ul class="navlist uppercase flex gap-10 text-md font-semibold">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+                </li>
+              </ul>
+
+              <div class="buttons">
+                <a
+                  href="#"
+                  class="btn uppercase btn-primary bg-[var(--primary)] text-md transition-all px-5 py-3 hover:opacity-90 shadow-sm rounded-md text-white"
+                >
+                  Get a Quote
+                </a>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <section class="p-4 flex flex-col items-center justify-center">
+          <div class="content w-full text-center md:w-[70%]">
+            <h1
+              class="text-6xl leading-[1.2em] mb-4 text-bold text-[var(--primary)]"
+            >
+              Reliable Contracting Solutions for a Stronger Future
+            </h1>
+            <p class="text-gray-300 text-xl">
+              From <strong>renovation</strong> and
+              <strong>pipeline</strong> work to <strong>electrical</strong>,
+              <strong>fencing</strong>, and
+              <strong>environmental</strong> projects, Dynamic Contracting
+              Company delivers quality, precision, and reliability in every job.
+            </p>
+          </div>
+          <div class="mt-10 flex flex-wrap justify-center gap-6 max-w-4xl">
+            <div class="w-[200px] p-4 bg-[var(--primary)] rounded-lg shadow-lg">
+              <img
+                src="/assets/icons/experience.svg"
+                alt="Experience Icon"
+                class="w-12 mx-auto mb-3"
+              />
+              <h3 class="text-lg font-semibold text-white">
+                Years of Experience
+              </h3>
+              <p class="text-gray-200 text-sm mt-2">
+                Providing top-notch workforce solutions for various industries.
+              </p>
+            </div>
+            <div class="w-[200px] p-4 bg-[var(--primary)] rounded-lg shadow-lg">
+              <img
+                src="/assets/icons/workforce.svg"
+                alt="Workforce Icon"
+                class="w-12 mx-auto mb-3"
+              />
+              <h3 class="text-lg font-semibold text-white">
+                Skilled Workforce
+              </h3>
+              <p class="text-gray-200 text-sm mt-2">
+                Connecting businesses with highly skilled professionals.
+              </p>
+            </div>
+            <div class="w-[200px] p-4 bg-[var(--primary)] rounded-lg shadow-lg">
+              <img
+                src="/assets/icons/quality.svg"
+                alt="Quality Icon"
+                class="w-12 mx-auto mb-3"
+              />
+              <h3 class="text-lg font-semibold text-white">
+                Quality Assurance
+              </h3>
+              <p class="text-gray-200 text-sm mt-2">
+                Ensuring high standards in recruitment and staffing.
+              </p>
+            </div>
+            <div class="w-[200px] p-4 bg-[var(--primary)] rounded-lg shadow-lg">
+              <img
+                src="/assets/icons/support.svg"
+                alt="Support Icon"
+                class="w-12 mx-auto mb-3"
+              />
+              <h3 class="text-lg font-semibold text-white">24/7 Support</h3>
+              <p class="text-gray-200 text-sm mt-2">
+                Dedicated assistance to meet your business needs anytime.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="md:p-16 bg-[var(--primary-light)] text-center">
+      <h1
+        class="text-4xl flex justify-center gap-4 items-center font-semibold mb-8 text-[var(--primary)]"
+      >
+        <span class="bars flex flex-col gap-2 items-end">
+          <span class="w-12 h-[2px] bg-[var(--primary)]"></span>
+          <span class="w-8 h-[1px] bg-gray-950"></span>
+        </span>
+        <span class="text"> Our Services </span>
+        <span class="bars flex flex-col gap-2 items-start">
+          <span class="w-12 h-[2px] bg-[var(--primary)]"></span>
+          <span class="w-8 h-[1px] bg-gray-950"></span>
+        </span>
+      </h1>
+      <div class="grid md:w-[70%] mx-auto md:grid-cols-2 gap-8">
+        <!-- Service Card 1 -->
+        <div
+          class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-all"
+        >
+          <img
+            src="/assets/images/workforce.avif"
+            alt="Service 1"
+            class="w-full h-48 object-cover rounded-t-lg mb-4"
+          />
+          <div class="body p-4">
+            <h3 class="text-2xl font-semibold text-[var(--primary)] mb-2">
+              Skilled Workforce Solutions
+            </h3>
+            <p class="text-gray-600 text-sm">
+              We provide businesses with highly skilled and experienced workers
+              who can drive productivity and ensure project success. From
+              short-term projects to long-term staffing solutions, our workforce
+              is ready to meet your needs.
+            </p>
+          </div>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div
+          class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-all"
+        >
+          <img
+            src="/assets/images/project-mange.avif"
+            alt="Service 2"
+            class="w-full h-48 object-cover rounded-t-lg mb-4"
+          />
+          <div class="body p-4">
+            <h3 class="text-2xl font-semibold text-[var(--primary)] mb-2">
+              Project Management
+            </h3>
+            <p class="text-gray-600 text-sm">
+              We offer comprehensive project management services to ensure your
+              projects are executed efficiently and within the set timelines.
+              Our team works closely with you to guarantee smooth operations
+              from start to finish.
+            </p>
+          </div>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div
+          class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-all"
+        >
+          <img
+            src="/assets/images/support.avif"
+            alt="Service 3"
+            class="w-full h-48 object-cover rounded-t-lg mb-4"
+          />
+          <div class="body p-4">
+            <h3 class="text-2xl font-semibold text-[var(--primary)] mb-2">
+              24/7 Workforce Support
+            </h3>
+            <p class="text-gray-600 text-sm">
+              Our services go beyond recruitment. We provide 24/7 support to
+              ensure that any issues are resolved promptly. Whether it's
+              troubleshooting or additional manpower, we're always here to
+              assist.
+            </p>
+          </div>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div
+          class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-all"
+        >
+          <img
+            src="/assets/images/staffing.avif"
+            alt="Service 4"
+            class="w-full h-48 object-cover rounded-t-lg mb-4"
+          />
+          <div class="body p-4">
+            <h3 class="text-2xl font-semibold text-[var(--primary)] mb-2">
+              Customizable Staffing Solutions
+            </h3>
+            <p class="text-gray-600 text-sm">
+              Tailored staffing solutions for businesses of all sizes. Whether
+              you need temporary, contract, or permanent staff, we work with you
+              to find the perfect fit for your requirements.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script src="/js/index.js"></script>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</html>

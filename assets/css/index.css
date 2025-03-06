@@ -1,0 +1,13 @@
+:root {
+  --primary: #8cc53f;
+  --secondary: #f7f7f7;
+  --black: #030607;
+}
+
+.font-grotesk {
+  font-family: "Host Grotesk", sans-serif;
+}
+
+strong {
+  text-decoration: underline;
+}
