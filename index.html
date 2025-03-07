@@ -32,8 +32,8 @@
         </div>
       </div>
       <!-- Foreground -->
-      <div class="foreground h-full w-full absolute z-10 bg-[rgba(0,0,0,.5)]">
-        <header class="flex flex-col">
+      <div class="foreground h-full w-full absolute z-20 bg-[rgba(0,0,0,.5)]">
+        <header class="flex flex-col absolute w-full z-20">
           <div
             class="tiny-bar hidden md:flex gap-4 p-2 lg:px-8 px-4 bg-[var(--primary)] text-white"
           >
@@ -95,9 +95,11 @@
           </nav>
         </header>
 
-        <section class="flex h-full justify-center items-center">
+        <section
+          class="flex h-full justify-center items-center md:absolute md:top-[25%] md:-translate-y-[25%]"
+        >
           <div
-            class="content flex flex-col gap-4 p-4 w-full md:absolute md:top-[50%] z-20 md:-translate-y-[50%] text-center md:w-[70%]"
+            class="content flex flex-col gap-4 p-4 w-full text-center md:w-[70%]"
           >
             <h1
               class="md:text-6xl xl:text-[70px] text-4xl leading-[1.2em] mb-4 text-bold text-[var(--primary)]"
