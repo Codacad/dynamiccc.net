@@ -35,7 +35,7 @@
       <div class="foreground h-full w-full absolute z-20 bg-[rgba(0,0,0,.5)]">
         <header class="flex flex-col absolute w-full z-20">
           <div
-            class="tiny-bar hidden md:flex gap-4 p-2 lg:px-8 px-4 bg-[var(--primary)] text-white"
+            class="tiny-bar hidden md:flex gap-4 p-2 lg:px-8 px-4 bg-[var(--black)] text-white"
           >
             <div class="email">
               <a href="mailto:info@dynamiccc.net">
@@ -63,7 +63,7 @@
               </h1>
 
               <ul
-                class="navlist hidden md:flex uppercase lg:gap-10 gap-4 text-md font-semibold"
+                class="navlist text-[var(--primary)] hidden md:flex uppercase lg:gap-10 gap-4 text-md font-semibold"
               >
                 <li class="nav-item">
                   <a href="#" class="nav-link">Services</a>
@@ -277,6 +277,7 @@
     </section>
 
     <!-- Why Partner with us -->
+    <!-- Why Partner with Us -->
     <section class="py-12 bg-gray-100">
       <div class="max-w-6xl mx-auto px-6 text-center">
         <h1
@@ -286,13 +287,22 @@
             <span class="w-12 h-[2px] bg-[var(--primary)]"></span>
             <span class="w-8 h-[1px] bg-gray-950"></span>
           </span>
-          <span class="text"> Why partner with us? </span>
+          <span class="text"> Why Partner with Us? </span>
           <span class="bars flex flex-col gap-2 items-start">
             <span class="w-12 h-[2px] bg-[var(--primary)]"></span>
             <span class="w-8 h-[1px] bg-gray-950"></span>
           </span>
         </h1>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+
+        <p class="text-lg text-gray-700 mb-10">
+          At Dynamic Contracting Company, we take pride in delivering
+          exceptional engineering solutions with a strong focus on quality,
+          safety, and innovation. Here’s why we are the right choice for your
+          next project:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <!-- Industry Experience -->
           <div class="p-6 bg-[var(--primary)] rounded-lg shadow-lg">
             <img
               src="/assets/icons/experience.svg"
@@ -300,48 +310,220 @@
               class="w-14 mx-auto mb-4"
             />
             <h3 class="text-lg font-semibold text-white">
-              Years of Experience
+              Proven Industry Experience
             </h3>
             <p class="text-gray-200 text-sm mt-2">
-              Delivering top-quality solutions with expertise.
+              Years of expertise in handling complex infrastructure and pipeline
+              projects with precision.
             </p>
           </div>
-          <div class="p-6 bg-[var(--primary)] rounded-lg shadow-lg">
-            <img
-              src="/assets/icons/workforce.svg"
-              alt="Workforce Icon"
-              class="w-14 mx-auto mb-4"
-            />
-            <h3 class="text-lg font-semibold text-white">Skilled Workforce</h3>
-            <p class="text-gray-200 text-sm mt-2">
-              Connecting businesses with highly trained professionals.
-            </p>
-          </div>
+
+          <!-- Quality Assurance -->
           <div class="p-6 bg-[var(--primary)] rounded-lg shadow-lg">
             <img
               src="/assets/icons/quality.svg"
               alt="Quality Icon"
               class="w-14 mx-auto mb-4"
             />
-            <h3 class="text-lg font-semibold text-white">Quality Assurance</h3>
+            <h3 class="text-lg font-semibold text-white">
+              High-Quality Standards
+            </h3>
             <p class="text-gray-200 text-sm mt-2">
-              Upholding the highest standards in every project.
+              Commitment to using premium materials and best practices to ensure
+              durability and excellence.
             </p>
           </div>
+
+          <!-- Safety and Reliability -->
+          <div class="p-6 bg-[var(--primary)] rounded-lg shadow-lg">
+            <img
+              src="/assets/icons/safety.svg"
+              alt="Safety Icon"
+              class="w-14 mx-auto mb-4"
+            />
+            <h3 class="text-lg font-semibold text-white">
+              Reliability & Safety
+            </h3>
+            <p class="text-gray-200 text-sm mt-2">
+              Adhering to industry safety standards to ensure secure and
+              efficient project execution.
+            </p>
+          </div>
+
+          <!-- Advanced Technology -->
+          <div class="p-6 bg-[var(--primary)] rounded-lg shadow-lg">
+            <img
+              src="/assets/icons/technology.svg"
+              alt="Technology Icon"
+              class="w-14 mx-auto mb-4"
+            />
+            <h3 class="text-lg font-semibold text-white">
+              Cutting-Edge Technology
+            </h3>
+            <p class="text-gray-200 text-sm mt-2">
+              Leveraging the latest innovations and modern equipment for
+              superior results.
+            </p>
+          </div>
+
+          <!-- Environmental Compliance -->
+          <div class="p-6 bg-[var(--primary)] rounded-lg shadow-lg">
+            <img
+              src="/assets/icons/solution.svg"
+              alt="Environment Icon"
+              class="w-14 mx-auto mb-4"
+            />
+            <h3 class="text-lg font-semibold text-white">
+              Sustainable & Compliant Solutions
+            </h3>
+            <p class="text-gray-200 text-sm mt-2">
+              Ensuring environmental responsibility and compliance with
+              regulatory requirements.
+            </p>
+          </div>
+
+          <!-- Customer Support -->
           <div class="p-6 bg-[var(--primary)] rounded-lg shadow-lg">
             <img
               src="/assets/icons/support.svg"
               alt="Support Icon"
               class="w-14 mx-auto mb-4"
             />
-            <h3 class="text-lg font-semibold text-white">24/7 Support</h3>
+            <h3 class="text-lg font-semibold text-white">
+              Dedicated Customer Support
+            </h3>
             <p class="text-gray-200 text-sm mt-2">
-              Always available to assist your business needs.
+              Our team is always ready to assist and guide you throughout every
+              stage of the project.
             </p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-white py-10">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          <!-- Company Info -->
+          <div>
+            <a href="/" class="bg-white block mb-4 w-[200px] h-[70px]">
+              <img
+                src="/assets/icons/dynamiccc-logo.svg"
+                alt="Dynamic Contracting Logo"
+                class="w-full h-full"
+              />
+            </a>
+            <p class="text-gray-400 text-sm">
+              Providing high-quality solutions in construction, pipeline
+              services, and electrical engineering.
+            </p>
+          </div>
+
+          <!-- Services -->
+          <div>
+            <h3 class="text-lg font-semibold text-[var(--primary)] mb-3">
+              Our Services
+            </h3>
+            <ul class="space-y-2 text-gray-400 text-sm">
+              <li>
+                <a href="#" class="hover:text-[var(--primary)]"
+                  >Renovation & Infrastructure</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[var(--primary)]"
+                  >RTR Pipeline Solutions</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[var(--primary)]"
+                  >CS & SS Pipeline Services</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[var(--primary)]"
+                  >Electrical Engineering</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[var(--primary)]"
+                  >Fencing & Security</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[var(--primary)]"
+                  >Environmental Compliance</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h3 class="text-lg font-semibold text-[var(--primary)] mb-3">
+              Quick Links
+            </h3>
+            <ul class="space-y-2 text-gray-400 text-sm">
+              <li>
+                <a href="#" class="hover:text-[var(--primary)]">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-[var(--primary)]">Projects</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-[var(--primary)]">Careers</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-[var(--primary)]">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div>
+            <h3 class="text-lg font-semibold text-[var(--primary)] mb-3">
+              Contact Us
+            </h3>
+            <ul class="space-y-2 text-gray-400 text-sm">
+              <li>
+                <i class="fas fa-map-marker-alt text-[var(--primary)]"></i>
+                Saudi Arabia
+              </li>
+              <li>
+                <i class="fas fa-phone text-[var(--primary)]"></i> +966
+                XXXXXXXXXX
+              </li>
+              <li>
+                <i class="fas fa-envelope text-[var(--primary)]"></i>
+                info@dynamic.com
+              </li>
+            </ul>
+
+            <!-- Social Icons -->
+            <div class="flex space-x-4 mt-4">
+              <a href="#" class="text-gray-400 hover:text-[var(--primary)]">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-[var(--primary)]">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-[var(--primary)]">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div
+          class="border-t border-gray-700 mt-6 pt-4 text-center text-gray-500 text-sm"
+        >
+          © 2025 Dynamic Contracting Company. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
   </body>
 
   <script src="/js/index.js"></script>
