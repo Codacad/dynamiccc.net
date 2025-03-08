@@ -29,30 +29,30 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   const clientSwiper = new Swiper(".client-swiper", {
     // Optional parameters
-    slidesPerView: 4,
     centeredSlides: true,
     spaceBetween: 20,
     autoplay: {
       delay: 2000,
     },
+    slidesPerView: 3,
     direction: "horizontal",
     loop: true,
-    breakpoints: {
-      // When window width is >= 1024px (Large screens)
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 20,
-      },
-      // When window width is >= 768px (Tablets)
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 15,
-      },
-      // When window width is >= 480px (Mobile devices)
-      480: {
-        slidesPerView: 1,
-        spaceBetween: 10,
-      },
-    },
+    // breakpoints: {
+    //   // When window width is >= 1024px (Large screens)
+    //   1024: {
+    //     slidesPerView: 3,
+    //     spaceBetween: 20,
+    //   },
+    //   // When window width is >= 768px (Tablets)
+    //   768: {
+    //     slidesPerView: 2,
+    //     spaceBetween: 15,
+    //   },
+    //   // When window width is >= 480px (Mobile devices)
+    //   480: {
+    //     slidesPerView: 1,
+    //     spaceBetween: 10,
+    //   },
+    // },
   });
 });
