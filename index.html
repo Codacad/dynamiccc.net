@@ -17,18 +17,40 @@
       href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="/assets/css/index.css" />
   </head>
   <body class="font-grotesk">
     <section class="hero md:min-h-screen h-[70vh] relative pb-4">
       <!-- Background Video -->
       <div class="background w-full h-full absolute -z-10">
-        <div class="img w-full h-full">
-          <img
-            class="w-full h-full object-cover"
-            src="/assets/images/renovation.avif"
-            alt=""
-          />
+        <div class="swiper w-full h-full">
+          <div class="img swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="w-full h-full object-cover"
+                src="/assets/images/renovation.avif"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="w-full h-full object-cover"
+                src="/assets/images/steel.avif"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="w-full h-full object-cover"
+                src="/assets/images/fencing.avif"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
       <!-- Foreground -->
@@ -281,7 +303,6 @@
     </section>
 
     <!-- Why Partner with us -->
-    <!-- Why Partner with Us -->
     <section class="py-12 bg-gray-100">
       <div class="max-w-6xl mx-auto px-6 text-center">
         <h1
@@ -405,6 +426,65 @@
       </div>
     </section>
 
+    <!-- Client Section -->
+    <section
+      class="clients flex-col flex min-h-[300px] w-full items-center justify-center"
+    >
+      <h1
+        class="text-4xl flex justify-center gap-4 items-center font-semibold mb-8 text-[var(--primary)]"
+      >
+        <span class="bars flex flex-col gap-2 items-end">
+          <span class="w-12 h-[2px] bg-[var(--primary)]"></span>
+          <span class="w-8 h-[1px] bg-gray-950"></span>
+        </span>
+        <span class="text">Our Trusted Partners </span>
+        <span class="bars flex flex-col gap-2 items-start">
+          <span class="w-12 h-[2px] bg-[var(--primary)]"></span>
+          <span class="w-8 h-[1px] bg-gray-950"></span>
+        </span>
+      </h1>
+      <div
+        class="client-swiper overflow-hidden flex justify-center h-full md:w-[70%] mx-auto"
+      >
+        <div class="img w-full swiper-wrapper md:p-8 p-4">
+          <div class="swiper-slide w-[300px]">
+            <img
+              class="object-cover"
+              src="/assets/images/clients/clients1.png"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide w-[300px]">
+            <img
+              class="object-cover"
+              src="/assets/images/clients/clients2.png"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide w-[300px]">
+            <img
+              class="object-cover"
+              src="/assets/images/clients/clients3.png"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide w-[300px]">
+            <img
+              class="object-cover"
+              src="/assets/images/clients/clients4.png"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide w-[300px]">
+            <img
+              class="object-cover"
+              src="/assets/images/clients/clients5.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Footer -->
     <footer class="bg-gray-950 text-white py-10">
       <div class="max-w-6xl mx-auto px-6">
@@ -533,6 +613,8 @@
     </footer>
   </body>
 
-  <script src="/js/index.js"></script>
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/assets/js/swiper.js"></script>
+  <script src="/js/index.js"></script>
 </html>
