@@ -1,10 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const swiper = new Swiper(".swiper", {
     // Optional parameters
-    effect: "fade",
-    fadeEffect: {
-      crossFade: true,
-    },
+
     autoplay: {
       delay: 5000,
     },
@@ -34,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
     autoplay: {
       delay: 2000,
     },
-    slidesPerView: 3,
+    slidesPerView: 4,
     direction: "horizontal",
     loop: true,
     // breakpoints: {
