@@ -26,9 +26,43 @@
     <link rel="stylesheet" href="/assets/css/spinner.css" />
   </head>
   <body>
+    <!-- Loader -->
     <div id="loader">
       <div class="spinner"></div>
     </div>
+
+    <!-- Mobile Menu -->
+    <!-- Mobile Menu -->
+    <nav
+      class="mobile-menu flex justify-center items-center md:hidden fixed top-0 left-0 w-full h-full bg-[var(--primary)] z-50"
+    >
+      <button
+        class="close-mobile-menu w-12 h-12 cursor-pointer absolute right-8 top-8"
+      >
+        <img src="/assets/icons/close.svg" alt="Close Mobile Menu" />
+      </button>
+      <div class="mobile-menu-contents">
+        <ul
+          class="navlist text-white flex mt-8 flex-col gap-12 text-3xl uppercase font-semibold"
+        >
+          <li class="nav-item">
+            <a href="#" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="/about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header -->
     <header class="flex flex-col w-full">
       <div
         class="tiny-bar hidden md:flex gap-4 p-2 lg:px-8 px-4 bg-[var(--black)] text-white"
@@ -83,7 +117,7 @@
             >
               Get a Quote
             </a>
-            <span class="max-md:block hidden">
+            <span class="open-mobile-menu max-md:block hidden">
               <i
                 class="fa-solid fa-bars text-2xl text-[var(--primary)] cursor-pointer"
               ></i>
