@@ -34,7 +34,9 @@
     <nav
       class="mobile-menu flex justify-center items-center md:hidden fixed top-0 left-0 w-full h-full bg-[var(--primary)] z-50"
     >
-      <button class="w-12 h-12 cursor-pointer absolute right-8 top-8">
+      <button
+        class="close-mobile-menu w-12 h-12 cursor-pointer absolute right-8 top-8"
+      >
         <img src="/assets/icons/close.svg" alt="Close Mobile Menu" />
       </button>
       <div class="mobile-menu-contents">
@@ -145,7 +147,7 @@
                 >
                   Get a Quote
                 </a>
-                <span class="max-md:block hidden">
+                <span class="open-mobile-menu max-md:block hidden">
                   <i
                     class="fa-solid fa-bars text-2xl text-[var(--primary)] cursor-pointer"
                   ></i>
