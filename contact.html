@@ -23,8 +23,12 @@
 
     <link rel="stylesheet" href="/assets/css/contact.css" />
     <link rel="stylesheet" href="/assets/css/index.css" />
+    <link rel="stylesheet" href="/assets/css/spinner.css" />
   </head>
   <body>
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>
     <header class="flex flex-col w-full">
       <div
         class="tiny-bar hidden md:flex gap-4 p-2 lg:px-8 px-4 bg-[var(--black)] text-white"
@@ -203,7 +207,7 @@
 
               <button
                 type="submit"
-                class="w-full bg-[var(--primary)] text-white py-2 rounded-lg hover:bg-opacity-90"
+                class="w-full cursor-pointer bg-[var(--primary)] text-white py-2 rounded-lg hover:bg-opacity-90"
               >
                 Send Message
               </button>
@@ -386,7 +390,8 @@
         </div>
       </div>
     </footer>
-    <script src="../assets/js/contact.js"></script>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="/assets/js/contact.js"></script>
+    <script src="/assets/js/index.js"></script>
   </body>
 </html>

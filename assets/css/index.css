@@ -3,7 +3,9 @@
   --secondary: #f7f7f7;
   --black: #030607;
 }
-
+/* section {
+  display: none;
+} */
 .font-grotesk {
   font-family: "Host Grotesk", sans-serif;
 }
