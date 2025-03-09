@@ -9,21 +9,6 @@ section.about {
     }
   }
   section.mission {
-    div.mission-image {
-      position: relative;
-      z-index: 10;
-      &::after {
-        content: "";
-        position: absolute;
-        bottom: -20px;
-        left: 0;
-        display: block;
-        width: 100%;
-        height: 100%;
-        z-index: -10;
-        background-color: var(--primary);
-      }
-    }
     div.mission-text {
       h3 {
         position: relative;
@@ -47,6 +32,58 @@ section.about {
           height: 1px;
           background-color: var(--black);
         }
+      }
+    }
+  }
+  section.vision {
+    div.vision-text {
+      h3 {
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          display: block;
+          width: 40px;
+          height: 2px;
+          background-color: var(--primary);
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: -6px;
+          left: 0;
+          display: block;
+          width: 20px;
+          height: 1px;
+          background-color: var(--black);
+        }
+      }
+    }
+  }
+  section.journey {
+    h2 {
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 40px;
+        height: 2px;
+        background-color: var(--primary);
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -6px;
+        left: 0;
+        display: block;
+        width: 20px;
+        height: 1px;
+        background-color: var(--black);
       }
     }
   }
