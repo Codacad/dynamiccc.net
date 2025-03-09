@@ -25,9 +25,39 @@
     <link rel="stylesheet" href="/assets/css/spinner.css" />
   </head>
   <body class="font-grotesk">
+    <!-- Loader -->
     <div id="loader">
       <div class="spinner"></div>
     </div>
+
+    <!-- Mobile Menu -->
+    <nav
+      class="mobile-menu flex justify-center items-center md:hidden fixed top-0 left-0 w-full h-full bg-[var(--primary)] z-50"
+    >
+      <button class="w-12 h-12 cursor-pointer absolute right-8 top-8">
+        <img src="/assets/icons/close.svg" alt="Close Mobile Menu" />
+      </button>
+      <div class="mobile-menu-contents">
+        <ul
+          class="navlist text-white flex mt-8 flex-col gap-12 text-3xl uppercase font-semibold"
+        >
+          <li class="nav-item">
+            <a href="#" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="/about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero Section -->
     <section class="hero min-h-screen relative pb-4">
       <!-- Background Video -->
       <div class="background w-full h-full absolute -z-10">
@@ -82,7 +112,7 @@
           <nav class="bg-gray-50 md:px-8 px-4 p-2">
             <div class="navbar-contents flex justify-between items-center">
               <h1 class="text-4xl font-bold uppercase">
-                <a href="#" class="w-[200px] h-[70px]"
+                <a href="/" class="w-[200px] h-[70px]"
                   ><img
                     class="w-full h-full"
                     src="/assets/icons/dynamiccc-logo.svg"
@@ -96,7 +126,7 @@
                 <li class="nav-item">
                   <a href="#" class="nav-link">Services</a>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">Projects</a>
                 </li>
