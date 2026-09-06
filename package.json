@@ -1,0 +1,28 @@
+{
+  "name": "dynamiccc.net",
+  "version": "1.0.0",
+  "description": "Static website for Dynamic Contracting Company",
+  "scripts": {
+    "build": "node scripts/images.mjs && node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codacad/dynamiccc.net.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Codacad/dynamiccc.net/issues"
+  },
+  "homepage": "https://github.com/Codacad/dynamiccc.net#readme",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "sharp": "^0.35.4"
+  },
+  "private": true
+}

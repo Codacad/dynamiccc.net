@@ -1,388 +1,300 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dynamic Contracting Company</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#8cc53f" />
+    <title>Our company | Dynamic Contracting Company</title>
+    <meta
+      name="description"
+      content="Meet Dynamic Contracting Company: integrated contracting expertise with a commitment to quality, safety, and client partnership in Saudi Arabia."
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
-      rel="stylesheet"
+    <link rel="canonical" href="https://dynamiccc.net/about.html" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Our company | Dynamic Contracting Company"
     />
-    <link rel="stylesheet" href="/assets/css/about.css" />
-    <link rel="stylesheet" href="/assets/css/index.css" />
-    <link rel="stylesheet" href="/assets/css/spinner.css" />
+    <meta
+      property="og:description"
+      content="Meet Dynamic Contracting Company: integrated contracting expertise with a commitment to quality, safety, and client partnership in Saudi Arabia."
+    />
+    <meta property="og:url" content="https://dynamiccc.net/about.html" />
+    <meta
+      property="og:image"
+      content="https://dynamiccc.net/assets/images/optimized/image-7-1280.webp"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <script src="/assets/js/site.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Dynamic Contracting Company",
+        "url": "https://dynamiccc.net",
+        "logo": "https://dynamiccc.net/assets/images/optimized/logo.webp",
+        "email": "info@dynamiccc.net",
+        "telephone": "+966598787917",
+        "areaServed": "Saudi Arabia"
+      }
+    </script>
   </head>
-  <body class="font-grotesk">
-    <!-- Loader -->
-    <div id="loader">
-      <div class="spinner"></div>
+  <body id="top">
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="topbar">
+      <div class="container">
+        <span>Built on trust. Driven by precision.</span>
+        <div>
+          <span class="location">Saudi Arabia</span
+          ><a href="mailto:info@dynamiccc.net">info@dynamiccc.net</a
+          ><a href="tel:+966598787917">059 878 7917</a>
+        </div>
+      </div>
     </div>
-
-    <!-- Mobile Menu -->
-    <!-- Mobile Menu -->
-    <nav
-      class="mobile-menu flex justify-center items-center md:hidden fixed top-0 left-0 w-full h-full bg-[var(--primary)] z-50"
-    >
-      <button
-        class="close-mobile-menu w-12 h-12 cursor-pointer absolute right-8 top-8"
-      >
-        <img src="/assets/icons/close.svg" alt="Close Mobile Menu" />
-      </button>
-      <div class="mobile-menu-contents">
-        <ul
-          class="navlist text-white flex mt-8 flex-col gap-12 text-3xl uppercase font-semibold"
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="/" aria-label="Dynamic Contracting Company home"
+          ><img
+            src="/assets/images/optimized/logo.webp"
+            alt="Dynamic Contracting Company"
+            width="200"
+            height="70" /></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-controls="navigation"
+          aria-expanded="false"
+          aria-label="Open navigation"
         >
-          <li class="nav-item">
-            <a href="#" class="nav-link">Services</a>
-          </li>
-          <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="/about.html" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="/contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- Header -->
-    <header class="flex flex-col w-full">
-      <div
-        class="tiny-bar hidden md:flex gap-4 p-2 lg:px-8 px-4 bg-[var(--black)] text-white"
-      >
-        <div class="email">
-          <a href="mailto:info@dynamiccc.net">
-            <span><i class="fa-solid fa-envelope"></i></span>
-            <span> info@dynamiccc.net </span>
-          </a>
-        </div>
-        <div class="contact-number">
-          <span><i class="fa-solid fa-phone"></i></span>
-          <span><a href="tel:+966536317438">+966 555440536</a></span>
-        </div>
-        <div class="button ml-auto">
-          <a href="/contact.html" class="p-2 rounded-sm text-white"
-            >Get in touch</a
+          <span></span><span></span>
+        </button>
+        <nav id="navigation" aria-label="Main navigation">
+          <a href="/">Home</a
+          ><a href="/about.html" aria-current="page">Company</a
+          ><a href="/services.html">Services</a
+          ><a href="/projects.html">Our work</a
+          ><a href="/contact.html">Contact</a
+          ><a class="button nav-cta" href="/contact.html#enquiry"
+            >Discuss your project <span aria-hidden="true">↗</span></a
           >
-        </div>
+        </nav>
       </div>
-      <nav class="bg-gray-50 md:px-8 px-4 p-2">
-        <div class="navbar-contents flex justify-between items-center">
-          <h1 class="text-4xl font-bold uppercase">
-            <a href="/" class="w-[200px] h-[70px]"
-              ><img
-                class="w-full h-full"
-                src="/assets/icons/dynamiccc-logo.svg"
-                alt=""
-            /></a>
-          </h1>
-
-          <ul
-            class="navlist text-[var(--primary)] hidden md:flex uppercase lg:gap-10 gap-4 text-md font-semibold"
-          >
-            <li class="nav-item">
-              <a href="#" class="nav-link">Services</a>
-            </li>
-            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a href="/about.html" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="/contact.html" class="nav-link">Contact</a>
-            </li>
-          </ul>
-
-          <div class="buttons">
-            <a
-              href="#"
-              class="btn md:block hidden uppercase btn-primary bg-[var(--primary)] text-md transition-all px-3 py-2 hover:opacity-90 shadow-sm rounded-md text-white"
-            >
-              Get a Quote
-            </a>
-            <span class="open-mobile-menu max-md:block hidden">
-              <i
-                class="fa-solid fa-bars text-2xl text-[var(--primary)] cursor-pointer"
-              ></i>
-            </span>
-          </div>
-        </div>
-      </nav>
     </header>
-
-    <!-- About -->
-    <section class="about">
-      <header class="min-h-[400px] relative">
-        <div class="background h-full w-full absolute">
-          <img
-            class="w-full h-full object-cover"
-            src="/assets/images/about-header.jpeg"
-            alt="About"
-          />
+    <main id="main">
+      <section class="page-hero">
+        <img
+          class="page-hero-image"
+          src="/assets/images/optimized/image-1-1280.webp"
+          srcset="
+            /assets/images/optimized/image-1-640.webp   640w,
+            /assets/images/optimized/image-1-1280.webp 1280w,
+            /assets/images/optimized/image-1-1920.webp 1920w
+          "
+          sizes="100vw"
+          alt=""
+          fetchpriority="high"
+          decoding="async"
+          width="1280"
+          height="853"
+        />
+        <div class="container">
+          <div class="breadcrumb">
+            <a href="/">Home</a><span>/</span>Our company
+          </div>
+          <p class="eyebrow"><span></span>Our company</p>
+          <h1>Built on trust.<br />Driven by purpose.</h1>
+          <p>
+            A contracting partner for the infrastructure, facilities, and
+            systems that keep your business moving.
+          </p>
         </div>
-        <div
-          class="foreground bg-[rgba(0,0,0,.5)] h-full w-full absolute z-10 flex flex-col md:gap-4 items-center"
-        >
-          <div class="content p-2 md:w-[70%] md:p-4 text-center">
-            <h1
-              class="flex justify-center gap-4 items-center font-semibold md:mb-4 max-md:mt-4 text-[var(--primary)]"
-            >
-              <span class="bars flex flex-col gap-2 items-end">
-                <span class="w-12 h-[2px] bg-[var(--primary)]"></span>
-                <span class="w-8 h-[1px] bg-gray-950"></span>
-              </span>
-              <span class="text"> Who we are </span>
-              <span class="bars flex flex-col gap-2 items-start">
-                <span class="w-12 h-[2px] bg-[var(--primary)]"></span>
-                <span class="w-8 h-[1px] bg-gray-950"></span>
-              </span>
-            </h1>
-            <div class="">
-              <div>
-                <p class="text-gray-100 text-lg leading-relaxed">
-                  Dynamic Contracting Company is a leading provider of
-                  innovative and reliable solutions in renovation,
-                  infrastructure upgrades, pipeline services, electrical
-                  installations, and security solutions. With a commitment to
-                  excellence, we bring years of expertise, professionalism, and
-                  a customer-centric approach to every project we undertake.
-                </p>
-              </div>
+      </section>
+      <section class="section">
+        <div class="container about-intro">
+          <div>
+            <p class="eyebrow"><span></span>We are Dynamic</p>
+            <h2>Practical expertise.<br />Lasting relationships.</h2>
+          </div>
+          <div>
+            <p class="lead">
+              We believe a successful project begins with understanding what
+              matters to the client.
+            </p>
+            <p>
+              Dynamic Contracting Company provides renovation, infrastructure
+              upgrades, pipeline services, electrical installations, fencing,
+              and environmental solutions in Saudi Arabia.
+            </p>
+            <p>
+              Our work brings together technical capabilities and a
+              client-focused approach. We aim to deliver solutions that respond
+              to real site conditions, support operational needs, and create
+              lasting value.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="wide-photo container">
+        <img
+          class=""
+          src="/assets/images/optimized/image-2-1280.webp"
+          srcset="
+            /assets/images/optimized/image-2-640.webp   640w,
+            /assets/images/optimized/image-2-1280.webp 1280w,
+            /assets/images/optimized/image-2-1920.webp 1920w
+          "
+          sizes="(max-width: 700px) 100vw, 50vw"
+          alt="Dynamic site workforce gathered for a briefing"
+          loading="lazy"
+          decoding="async"
+          width="1280"
+          height="853"
+        />
+        <div>
+          Shared focus. Collective effort.<span
+            >THE PEOPLE BEHIND THE WORK</span
+          >
+        </div>
+      </section>
+      <section class="section" id="commitments">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow"><span></span>What guides us</p>
+              <h2>Principles that carry<br />through to the site.</h2>
             </div>
-          </div>
-          <span class="w-24 h-1 my-4 rounded-3xl bg-[var(--primary)]"></span>
-          <div class="navigation flex items-center">
-            <a href="/" class="text-gray-100">Home</a>
-            <span class="text-gray-100"
-              ><img class="w-8 h-8" src="/assets/icons/caret-right.svg" alt=""
-            /></span>
-            <a href="/about.html" class="text-gray-400 underline">About</a>
-          </div>
-        </div>
-      </header>
-      <section class="mission bg-gray-100 py-16">
-        <div
-          class="md:w-[70%] mx-auto px-6 grid md:grid-cols-2 gap-12 items-center"
-        >
-          <div
-            class="mission-image w-full flex justify-center items-center rounded-full overflow-hidden"
-          >
-            <img
-              src="/assets/images/mission.webp"
-              alt="Our Mission"
-              class="w-full h-full object-cover rounded-full shadow-lg"
-            />
-          </div>
-          <div class="mission-text">
-            <h3 class="text-3xl font-semibold text-[var(--primary)] mb-4">
-              Our Mission
-            </h3>
-            <p class="text-gray-700 text-lg">
-              To provide high-quality contracting services that exceed client
-              expectations through innovation, integrity, and a commitment to
-              safety. We aim to enhance infrastructure, optimize efficiency, and
-              contribute to the sustainable development of communities.
+            <p>
+              Our commitments shape how we approach each scope, each decision,
+              and each relationship.
             </p>
+          </div>
+          <div class="values-grid">
+            <article data-reveal>
+              <span class="value-number">01 /</span>
+              <h3>Quality</h3>
+              <p>
+                Attention to materials and workmanship, with an approach shaped
+                by the requirements of each project.
+              </p>
+            </article>
+            <article data-reveal>
+              <span class="value-number">02 /</span>
+              <h3>Safety</h3>
+              <p>
+                A commitment to responsible execution, site awareness, and the
+                wellbeing of the people involved.
+              </p>
+            </article>
+            <article data-reveal>
+              <span class="value-number">03 /</span>
+              <h3>Integrity</h3>
+              <p>
+                Straightforward communication, clearly defined scopes, and a
+                relationship built on trust.
+              </p>
+            </article>
+            <article data-reveal>
+              <span class="value-number">04 /</span>
+              <h3>Responsibility</h3>
+              <p>
+                Consideration for the environment, efficient resource use, and
+                long-term value.
+              </p>
+            </article>
+          </div>
+          <div class="mission-grid">
+            <article>
+              <p class="eyebrow"><span></span>Our mission</p>
+              <h3>Deliver value.<br />Build confidence.</h3>
+              <p>
+                To provide high-quality contracting services through innovation,
+                integrity, and a commitment to safety enhancing infrastructure,
+                improving efficiency, and contributing to sustainable
+                development.
+              </p>
+            </article>
+            <article>
+              <p class="eyebrow"><span></span>Our vision</p>
+              <h3>A stronger future.<br />Built together.</h3>
+              <p>
+                To be a recognised contracting partner in infrastructure,
+                engineering, and environmental management, creating long-term
+                value for our clients and the communities around us.
+              </p>
+            </article>
           </div>
         </div>
       </section>
-      <section class="vision bg-white py-16">
-        <div
-          class="md:w-[70%] mx-auto px-6 grid md:grid-cols-2 gap-12 items-center"
-        >
-          <div class="vision-text">
-            <h3 class="text-3xl font-semibold text-[var(--primary)] mb-4">
-              Our Vision
-            </h3>
-            <p class="text-gray-700 text-lg">
-              To be a recognized leader in the contracting industry, delivering
-              cutting-edge solutions in infrastructure, engineering, and
-              environmental management, ensuring long-term value for our clients
-              and stakeholders.
-            </p>
+      <section class="cta">
+        <div class="container cta-inner">
+          <div>
+            <p class="eyebrow"><span></span>Your next project starts here</p>
+            <h2>Let’s build something<br />that lasts.</h2>
           </div>
-          <div
-            class="vision-image max-h-[300px] h-auto flex justify-center items-center rounded-lg overflow-hidden"
-          >
-            <img
-              src="/assets/images/vision.webp"
-              alt="Our Vision"
-              class="w-full h-full object-cover rounded-lg"
-            />
+          <div>
+            <p>
+              Bring us your requirements. Let’s explore the right solution for
+              your site, your operation, and your ambitions.
+            </p>
+            <a class="button" href="/contact.html#enquiry"
+              >Discuss your project<span aria-hidden="true">↗</span></a
+            >
           </div>
         </div>
       </section>
-    </section>
-
-    <!-- Our Journey -->
-    <section class="journey py-16 bg-gray-100 text-center">
-      <div class="max-w-6xl mx-auto px-6">
-        <h2 class="text-4xl font-bold text-[var(--primary)] mb-8">
-          Our Journey
-        </h2>
-        <div class="grid md:grid-cols-2 items-center gap-12">
-          <div class="journey-image">
-            <img
-              src="/assets/icons/journey.svg"
-              alt="Our Journey"
-              class="w-full rounded-lg"
-            />
-          </div>
-          <div class="journey-text">
-            <p class="text-gray-700 text-lg leading-relaxed">
-              Founded in Saudi Arabia, Dynamic Contracting Company has grown to
-              become a trusted name in the contracting industry. With expertise
-              in renovation, pipeline services, electrical engineering, and
-              environmental management, we continue to drive progress and
-              deliver exceptional solutions that meet industry demands.
-            </p>
-          </div>
+    </main>
+    <footer>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="brand"
+            ><img
+              src="/assets/images/optimized/logo.webp"
+              alt="Dynamic Contracting Company"
+              width="200"
+              height="70"
+              loading="lazy"
+          /></a>
+          <p>
+            Reliable contracting solutions.<br />Lasting value for Saudi Arabia.
+          </p>
+          <span class="footer-location"
+            ><span class="status-dot"></span> Kingdom of Saudi Arabia</span
+          >
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <a href="/about.html">Our company</a
+          ><a href="/services.html">Our expertise</a
+          ><a href="/projects.html">Our work</a
+          ><a href="/contact.html">Get in touch</a>
+        </div>
+        <div>
+          <h3>Our services</h3>
+          <a href="/services/renovation.html">Renovation & infrastructure</a
+          ><a href="/services/rtr-pipelines.html">RTR pipeline solutions</a
+          ><a href="/services/steel-pipelines.html">CS & SS pipeline services</a
+          ><a href="/services/electrical.html">Electrical engineering</a
+          ><a href="/services/fencing.html">Fencing & security</a
+          ><a href="/services/environmental.html">Environmental management</a>
+        </div>
+        <div>
+          <h3>Let’s build a conversation</h3>
+          <a class="footer-email" href="mailto:info@dynamiccc.net"
+            >info@dynamiccc.net <span aria-hidden="true">↗</span></a
+          ><a href="tel:+966598787917">059 878 7917</a>
+          <p>
+            Have a scope, a drawing, or an idea?<br />We’re ready to hear about
+            it.
+          </p>
         </div>
       </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-950 text-white py-10">
-      <div class="max-w-6xl mx-auto px-6">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-          <!-- Company Info -->
-          <div>
-            <a href="/" class="bg-white block mb-4 w-[200px] h-[70px]">
-              <img
-                src="/assets/icons/dynamiccc-logo.svg"
-                alt="Dynamic Contracting Logo"
-                class="w-full h-full"
-              />
-            </a>
-            <p class="text-gray-400 text-sm">
-              Providing high-quality solutions in construction, pipeline
-              services, and electrical engineering.
-            </p>
-          </div>
-
-          <!-- Services -->
-          <div>
-            <h3 class="text-lg font-semibold text-[var(--primary)] mb-3">
-              Our Services
-            </h3>
-            <ul class="space-y-2 text-gray-400 text-sm">
-              <li>
-                <a href="#" class="hover:text-[var(--primary)]"
-                  >Renovation & Infrastructure</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[var(--primary)]"
-                  >RTR Pipeline Solutions</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[var(--primary)]"
-                  >CS & SS Pipeline Services</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[var(--primary)]"
-                  >Electrical Engineering</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[var(--primary)]"
-                  >Fencing & Security</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[var(--primary)]"
-                  >Environmental Compliance</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <!-- Quick Links -->
-          <div>
-            <h3 class="text-lg font-semibold text-[var(--primary)] mb-3">
-              Quick Links
-            </h3>
-            <ul class="space-y-2 text-gray-400 text-sm">
-              <li>
-                <a href="/about.html" class="hover:text-[var(--primary)]"
-                  >About Us</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[var(--primary)]">Projects</a>
-              </li>
-              <li>
-                <a href="#" class="hover:text-[var(--primary)]">Careers</a>
-              </li>
-              <li>
-                <a href="/contact.html" class="hover:text-[var(--primary)]"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <!-- Contact -->
-          <div>
-            <h3 class="text-lg font-semibold text-[var(--primary)] mb-3">
-              Contact Us
-            </h3>
-            <ul class="space-y-2 text-gray-400 text-sm">
-              <li>
-                <i class="fas fa-map-marker-alt text-[var(--primary)]"></i>
-                Saudi Arabia
-              </li>
-              <li>
-                <i class="fas fa-phone text-[var(--primary)]"></i>
-                <a href="tel:+966555440536">+966 555440536</a>
-              </li>
-              <li>
-                <i class="fas fa-envelope text-[var(--primary)]"></i>
-                <a href="mailto:info@dynamiccc.net">info@dynamiccc.net</a>
-              </li>
-            </ul>
-
-            <!-- Social Icons -->
-            <div class="flex space-x-4 mt-4">
-              <a href="#" class="text-gray-400 hover:text-[var(--primary)]">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" class="text-gray-400 hover:text-[var(--primary)]">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#" class="text-gray-400 hover:text-[var(--primary)]">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Copyright -->
-        <div
-          class="border-t border-gray-700 mt-6 pt-4 text-center text-gray-500 text-sm"
-        >
-          © 2025 Dynamic Contracting Company. All Rights Reserved.
-        </div>
+      <div class="container footer-bottom">
+        <span>© 2026 Dynamic Contracting Company. All rights reserved.</span
+        ><a href="/privacy.html">Privacy notice</a
+        ><a href="#top">Back to top ↑</a>
       </div>
     </footer>
   </body>
-
-  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-  <script src="/assets/js/index.js"></script>
 </html>

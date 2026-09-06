@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /rough.html
+Sitemap: https://dynamiccc.net/sitemap.xml
